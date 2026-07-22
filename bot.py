@@ -2,7 +2,7 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
-TOKEN = os.getenv("8787563547:AAGARoM9thTw8KFcRqzD-4uaeaCcxzJEj1k")
+TOKEN = os.getenv("8787563547:AAFHDXVOY1XjZt-257A6MdAJ5Eu3Q1WnfsE")
 
 
 async def reply_only(update: Update, context: ContextTypes.DEFAULT_TYPE):

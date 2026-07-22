@@ -4,9 +4,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filte
 
 import os
 
-TOKEN = os.getenv("BOT_TOKEN")
-print(f"TOKEN = {repr(TOKEN)}")
-
+TOKEN = os.getenv("8787563547:AAFHDXVOY1XjZt-257A6MdAJ5Eu3Q1WnfsE")
 
 async def reply_only(update: Update, context: ContextTypes.DEFAULT_TYPE):
     message = update.effective_message
